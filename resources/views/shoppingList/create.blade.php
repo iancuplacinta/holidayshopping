@@ -16,7 +16,7 @@
            </div>
            <div class="form-group">
                {!! Form::label('quantity', 'Quantity:') !!}
-               {!! Form::text('quantity', null, ['class'=>'form-control']) !!}
+               {!! Form::input('number','quantity', null, ['class'=>'form-control']) !!}
            </div>
            <div class="form-group">
                {!! Form::label('recipient', 'Recipient:') !!}
